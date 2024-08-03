@@ -1,0 +1,115 @@
+.skip-to{
+   left:-999px;
+   position:absolute;
+   top:auto;
+}
+
+.skip-to:focus{
+    left: auto;
+    top: auto;
+    width:30%;
+    margin:20px;
+    background-color: yellow;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-img img{
+    width:50%;
+    border: none;
+    border-radius: 0px;
+    padding:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    text-align: center;
+    font-size:larger;
+    border-bottom: dashed gray 3px;
+    padding: 2px;
+    background-color: darkgray;
+}
+
+nav a{
+   padding:3px;
+   font-family: "Itim",cursive
+}
+
+nav a:hover{
+    color: #355584;
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+h1{
+    color:black;
+    text-align:center;
+    font-family: "Itim",cursive;
+}
+
+.pink h2 {
+    color: #ff69b4;
+    font-family: "Itim",cursive;
+}
+
+.yellow h2 {
+    color: #FDDA0D;
+    font-family: "Itim",cursive;
+}
+
+.blue h2 {
+    color: steelblue;
+    font-family: "Itim",cursive;
+}
+
+li:nth-child(odd){
+    background-color: rgb(221, 216, 216);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    row-gap: 2px;
+    align-items: center;
+}
+
+.grid-container img{
+    border: solid pink;
+    padding: 2px;
+    margin: 5px;
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 15px;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .flex-container img{
+    border: groove 5px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+  }
+
+  .flex-container img{
+    width: 300px;
+    height: 200px;
+  }
